@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qrdemo_1">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kapak"
+        android:label="Click N Eat"
+        android:roundIcon="@drawable/kapak"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".internet"></activity>
+        <activity android:name=".Secim" />
+        <activity android:name=".Oyla" />
+        <activity android:name=".Menu1" />
+        <activity android:name=".ScanCodeActivity" />
+        <activity android:name=".AnaEkran" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

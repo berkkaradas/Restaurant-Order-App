@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1E840"
+    tools:context=".Secim">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTORANIMIZA HOŞGELDİNİZ"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="#6313E1"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lütfen isminizi giriniz."
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+
+    />
+
+    <EditText
+        android:id="@+id/edtmasa"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lütfen masa numaranızı giriniz."
+        android:textSize="20dp"
+        android:layout_marginTop="100dp" />
+
+
+    <Button
+        android:id="@+id/btnAnasayfa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Anasayfaya gitmek için tıklayınız"
+        android:layout_marginTop="90dp"
+
+        android:textColor="#6313E1"
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
